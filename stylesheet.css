@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #4e4e4e;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left h1 {
+  width: 250px;
+  color: #fff;
+  margin-top: 12px;
+  margin-left: 40px;
+  letter-spacing: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.menu {
+  float: left;
+  margin-right: -25px;
+}
+
+.menu a {
+  line-height: 65px;
+  padding: 0 15px;
+  color: #fff;
+  display: block;
+  float: left;
+}
+
+.main {
+  padding: 90px 0 50px 0;
+  background-color: #fff;
+  color: #4e4e4e;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 900px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.main span {
+  color: #ffff1a;
+}
+
+.main h2 {
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.main img {
+  width: 250px;
+}
+
+.about {
+  width: 100%;
+  height: 250px;
+  background-color: #d3d3d3;
+  padding: 10px 0 10px 0px;
+  text-align: center;
+}
+
+.penjelasan {
+  width: 95%;
+  margin:  30px auto;
+  line-height: 25px;
+}
+
+/* Proyek Contoh */
+.proyek-contoh {
+  margin-top: 80px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.proyek-contoh img {
+  width: 150px;
+}
+
+.judul {
+  width: 100%;
+}
+
+.judul h2 {
+  font-size: 30px;
+  font-family: Arial;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+.proyek {
+  width: 25%;
+}
+
+.proyek1 {
+  margin-right: 115px;
+  margin-left: 100px;
+  float: left;
+}
+
+.clear {
+  clear: left;
+}
+
+.hubungi-saya {
+  width: 100%;
+  background-color: #d3d3d3;
+}
+
+.hubungi-saya h2 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.form-hubungi {
+  width: 25%;
+  margin: auto auto;
+}
+
+.form-hubungi input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.form-hubungi textarea{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.btn {
+  width: 150px;
+  margin: auto auto;
+}
+
+.btn input {
+  background-color: orange;
+}
+
+.footer {
+  width: 100%;
+  background-color: #4e4e4e;
+  height: 100px;
+  padding-left: 30px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.footer h3 {
+  position: absolute;
+  top:  -3px;
+  font-size: 25px;
+  letter-spacing: 6px;
+  color: #fff;
+}
+
+.footer a {
+  text-align: right;
+  margin: auto 15px auto 0;
+  color: #fff;
+  line-height: 25px;
+  display: block;
+}
